@@ -1,0 +1,27 @@
+Artificial intelligence chat bots are easy to write in Python with the AIML package.
+
+AIML is a form of XML that defines rules for matching patterns and determining responses.
+(in simple words if the entered message from the user matches with the patterns we have mentioned then our response will be whatever is written in the template)
+
+Standard Startup File:(standard file std-startup.xml)
+This serves as the main entry point.
+Here we specify that if the pattern matches 'load aiml b' then load basic_chat.aiml file.
+(and in basic_chat.aiml we have the talk wla stuff)
+
+basic_chat.aiml file:
+now category is like a unit cell in aiml
+So for different messages from the user we can create any number of categories.
+In each category, we have an expected message from the user(pattern) and its coressponding desired message we wish to print(template) 
+
+A simple python program to create aiml object.
+In that we learn ONLY std-startup(which then loads the rest of the aiml files).
+So in case later on we need to add anything, wwe do it in std-startup file
+
+Speeding up brain load:
+(used dwhen we have a large number of aiml files)
+learning those files on subsequent times will take time.So to save time, we load all those aiml files in the brain.
+
+tuo baically es assignment kai liye we need to :
+std_startup.xml
+basic_chat.aiml
+create_aiml_obj.py(or test.py)
