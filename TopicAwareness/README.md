@@ -10,6 +10,8 @@ Thus is required an automated algorithm that can read through the text documents
 
 Topic modeling is a type of statistical modeling for discovering the abstract “topics” that occur in a collection of documents.
 
+![im1](https://user-images.githubusercontent.com/62843848/86842402-c2a4f380-c0c2-11ea-8241-88306117a2d9.png)
+
 ### Latent Dirichlet Allocation
 
 Latent Dirichlet Allocation (LDA) is an example of topic model and is used to classify text in a document to a particular topic. 
