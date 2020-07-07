@@ -57,3 +57,6 @@ It means the top 10 keywords that contribute to this topic are: ‘car’, ‘po
 
 The weights reflect how important a keyword is to that topic.
 
+## Important links:
+<https://www.machinelearningplus.com/nlp/topic-modeling-gensim-python/>
+<https://towardsdatascience.com/topic-modeling-and-latent-dirichlet-allocation-in-python-9bf156893c24>
