@@ -15,14 +15,6 @@ Topic modeling is a type of statistical modeling for discovering the abstract �
 Latent Dirichlet Allocation (LDA) is an example of topic model and is used to classify text in a document to a particular topic. 
 It builds a topic per document model and words per topic model, modeled as Dirichlet distributions.
 
-### Data Pre-processing
-
-We will perform the following steps:
-1. Tokenization: Split the text into sentences and the sentences into words. Lowercase the words and remove punctuation.
-2. Words that have fewer than 3 characters are removed.
-3. All stopwords are removed.
-4. Words are lemmatized — words in third person are changed to first person and verbs in past and future tenses are changed into present.
-5. Words are stemmed — words are reduced to their root form.
 
 ## What does LDA do?
 LDA’s approach to topic modeling is it considers each document as a collection of topics in a certain proportion. And each topic as a collection of keywords, again, in a certain proportion.
@@ -35,6 +27,15 @@ A topic is nothing but a collection of dominant keywords that are typical repres
 
 ### Import Newsgroups Data
 We will be using the 20-Newsgroups dataset for this exercise. This version of the dataset contains about 11k newsgroups posts from 20 different topics. This is available as newsgroups.json.
+
+### Data Pre-processing
+
+We will perform the following steps:
+1. Tokenization: Split the text into sentences and the sentences into words. Lowercase the words and remove punctuation.
+2. Words that have fewer than 3 characters are removed.
+3. All stopwords are removed.
+4. Words are lemmatized — words in third person are changed to first person and verbs in past and future tenses are changed into present.
+5. Words are stemmed — words are reduced to their root form.
 
 ### Building the Topic Model
 We have everything required to train the LDA model. In addition to the corpus and dictionary, you need to provide the number of topics as well.
